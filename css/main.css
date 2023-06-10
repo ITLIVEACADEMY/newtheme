@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.wrapper {
+    border: 5px solid indigo;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    /* background-image: red url('../img/tree.jfif') ; */
+    /* background-repeat: no-repeat;
+    /* background-color: brown; */
+    /* background-position: center center; */
+    /* background: red url('../img/tree.jfif') no-repeat center center; */
+
+    background: url(../img/cars\ desc.avif) no-repeat center center / cover;
+}
+
+
+.content {
+    width: 600px;
+    height: 400px;
+    border: 3px solid blue;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+a::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: red;
+}
+
+a::after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: red;
+}
